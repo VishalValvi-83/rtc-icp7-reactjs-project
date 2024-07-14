@@ -1,0 +1,21 @@
+.media-container {
+    background-color: #ffc221;
+}
+
+.social-media {
+    margin-left: 150px;
+    display: flex;
+    font-size: 25px;
+    gap: 50px;
+}
+
+.fa-brands {
+    cursor: pointer;
+
+}
+
+@media screen and (max-width:600px) {
+    .media-container {
+        display: none;
+    }
+}
