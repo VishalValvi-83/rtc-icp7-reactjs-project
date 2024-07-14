@@ -1,0 +1,140 @@
+.media-container {
+    background-color: #ffc221;
+}
+
+.social-media {
+    margin-left: 150px;
+    display: flex;
+    font-size: 25px;
+    gap: 50px;
+}
+
+.fa-brands {
+    cursor: pointer;
+}
+
+.logo {
+    max-width: 100%;
+}
+
+.nevigation-menu {
+    text-transform: uppercase;
+    display: block;
+    font-size: 16px;
+    font-weight: 500;
+    color: #010005;
+    padding: 30px 23px 0 23px;
+    line-height: 20px;
+    text-decoration: none;
+}
+
+.header {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.btn {
+    margin-top: 20px;
+    display: block;
+    padding: 7px 41px;
+}
+
+.banner {
+    max-width: 100%;
+}
+
+.banner-section {
+    background-image: url(../Home/banner.jpg);
+
+    height: auto;
+    width: 100%;
+}
+
+.banner-text {
+    color: #020000;
+    font-size: 85px;
+    line-height: 90px;
+    text-transform: uppercase;
+    margin-left: 280px;
+    padding-top: 100px;
+}
+
+.latest {
+    font-weight: bolder;
+}
+
+.product {
+    color: #ffc221;
+    font-weight: bolder;
+}
+
+.product-btn {
+    font-size: 20px;
+    border-radius: 30px 0px 30px 30px;
+    display: inline-block;
+    text-align: center;
+    margin: 20px 0px;
+}
+
+.product-btn a {
+    text-decoration: none;
+    color: #fff;
+}
+
+@media screen and (max-width:600px) {
+    .media-container {
+        display: none;
+    }
+
+    .logo {
+        max-width: 100%;
+        height: auto;
+        display: block;
+        margin: 0px auto;
+
+    }
+
+    .nevigation-menu {
+        display: none;
+    }
+
+    .banner-text {
+        font-size: 40px;
+        margin-left: 60px;
+        position: relative;
+
+    }
+
+    .our {
+        top: -15px;
+        position: absolute
+    }
+
+    .latest {
+        top: 25px;
+        position: absolute
+    }
+
+    .product {
+        top: 60px;
+        position: absolute
+    }
+
+    .banner-section {
+        background-size: cover;
+        background-repeat:round;
+        height: 250px;
+        width: 100%;
+    }
+
+    .product-btn {
+        font-size: 15px;
+        border-radius: 30px 0px 30px 30px;
+        display: inline-block;
+        text-align: center;
+        margin: 40px 0px;
+    }
+
+}
