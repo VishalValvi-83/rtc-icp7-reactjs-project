@@ -27,6 +27,12 @@
     line-height: 20px;
     text-decoration: none;
 }
+.nevigation-menu:hover{
+    color: #ffc221;
+}
+.login-btn:hover{
+    color: #fff;
+}
 
 .header {
     display: flex;
@@ -82,22 +88,52 @@
     text-decoration: none;
     color: #fff;
 }
-
+.choose-us {
+        font-size: 50px;
+        line-height: 55px;
+        color: #ffc221;
+        font-weight: 500;
+        text-transform: uppercase;
+        margin-bottom: 27px;
+        position: relative;
+        padding-bottom: 8px;
+        text-align: center;
+    
+}
+.text{
+    color: #070500;
+    font-size: 35px;
+    line-height: 30px;
+    margin-top: 20px;
+    font-weight: none;
+    text-align: center;
+}
+.black-text{
+    color:  #020000;
+}
+.computer-services{
+    background-color: #ffc221;
+    
+}
 @media screen and (max-width:600px) {
     .media-container {
         display: none;
     }
 
     .logo {
-        max-width: 100%;
+        max-width: 90%;
         height: auto;
         display: block;
         margin: 0px auto;
 
     }
 
-    .nevigation-menu {
+    /* .nevigation-menu {
         display: none;
+    } */
+    .navbar-toggler {
+        position: absolute;
+        right: 5px;
     }
 
     .banner-text {
@@ -124,7 +160,7 @@
 
     .banner-section {
         background-size: cover;
-        background-repeat:round;
+        background-repeat: round;
         height: 250px;
         width: 100%;
     }
