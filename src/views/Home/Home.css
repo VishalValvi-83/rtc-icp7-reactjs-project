@@ -111,6 +111,10 @@
 .black-text{
     color:  #020000;
 }
+.computer-services{
+    background-color: #ffc221;
+    
+}
 @media screen and (max-width:600px) {
     .media-container {
         display: none;
