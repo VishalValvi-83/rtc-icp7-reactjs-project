@@ -122,10 +122,11 @@
 
 
 }
-.computer-services-cards{
+
+.computer-services-cards {
     background-color: #fff;
     border: 2px solid rgb(255, 255, 255);
-    width: 1200px;
+    width:70%;
     box-shadow: 0 0 10px 1px #d2d2d2;
 }
 
@@ -141,7 +142,8 @@
     font-size: 20px;
     margin-top: 40px;
 }
-.btn-readmore:hover{
+
+.btn-readmore:hover {
     background-color: #f9be20;
     transition: 0.5s;
 }

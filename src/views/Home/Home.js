@@ -3,7 +3,7 @@ import React from 'react'
 import '../../views/Home/Home.css'
 import { Link } from 'react-router-dom'
 import logo from '../Home/logo.jpg'
-
+import Footer from '../../components/footer/footer'
 import Computerservices from '../../components/computer-services/c-services'
 import one from './../../components/computer-services/1.png'
 import two from '../../components/computer-services/2.png'
@@ -87,6 +87,7 @@ const Home = () => {
         </div>
 
       </div>
+      <Footer />
     </>
   )
 }
