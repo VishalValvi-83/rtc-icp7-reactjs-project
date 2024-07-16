@@ -27,10 +27,12 @@
     line-height: 20px;
     text-decoration: none;
 }
-.nevigation-menu:hover{
+
+.nevigation-menu:hover {
     color: #ffc221;
 }
-.login-btn:hover{
+
+.login-btn:hover {
     color: #fff;
 }
 
@@ -88,19 +90,21 @@
     text-decoration: none;
     color: #fff;
 }
+
 .choose-us {
-        font-size: 50px;
-        line-height: 55px;
-        color: #ffc221;
-        font-weight: 500;
-        text-transform: uppercase;
-        margin-bottom: 27px;
-        position: relative;
-        padding-bottom: 8px;
-        text-align: center;
-    
+    font-size: 50px;
+    line-height: 55px;
+    color: #ffc221;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-bottom: 27px;
+    position: relative;
+    padding-bottom: 8px;
+    text-align: center;
+
 }
-.text{
+
+.text {
     color: #070500;
     font-size: 35px;
     line-height: 30px;
@@ -108,13 +112,40 @@
     font-weight: none;
     text-align: center;
 }
-.black-text{
-    color:  #020000;
+
+.black-text {
+    color: #020000;
 }
-.computer-services{
+
+.computer-services {
     background-color: #ffc221;
-    
+
+
 }
+.computer-services-cards{
+    background-color: #fff;
+    border: 2px solid rgb(255, 255, 255);
+    width: 1200px;
+    box-shadow: 0 0 10px 1px #d2d2d2;
+}
+
+.btn-readmore {
+    width: 190px;
+    margin: 0 auto;
+    background: #fff;
+    display: block;
+    border: #f9be20 solid 2px;
+    text-align: center;
+    padding: 10px 0px;
+    color: #0a0401 !important;
+    font-size: 20px;
+    margin-top: 40px;
+}
+.btn-readmore:hover{
+    background-color: #f9be20;
+    transition: 0.5s;
+}
+
 @media screen and (max-width:600px) {
     .media-container {
         display: none;

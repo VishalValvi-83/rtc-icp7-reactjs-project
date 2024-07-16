@@ -56,37 +56,40 @@ const Home = () => {
       <div className='choose-section my-5'>
         <p className='choose-us'>Why <span className='black-text'>Choose Us</span></p>
         <p className='text'>Fastest repair service with best price!</p>
-        <div className='computer-services'>
-          <div className='inner-section mx-auto d-flex flex-wrap justify-content-center'>
-            <Computerservices
-              url={one}
-              text="Superfast Data Recovery"
-              header="Data Recovery"
-            />
-            <Computerservices 
-            url={two} 
-            header="Computer Repair"
-            text="Easy Computer Repairing"
-
-            
-            />
-            <Computerservices 
-            url={three}
-            text="All Types Of Mobile Services"
-            header="Mobile Service"
-            />
-            <Computerservices 
-            url={four}
-            header="Network Solutions"
-            text="Computer Networking Solutions"
-             />
+        <div className='computer-services mt-5 '>
+          <div className='computer-services-cards  mx-auto'>
+            <div className='inner-section mx-auto d-flex flex-wrap justify-content-center'>
+              <Computerservices
+                url={one}
+                text="Superfast Data Recovery"
+                header="Data Recovery"
+              />
+              <Computerservices
+                url={two}
+                header="Computer Repair"
+                text="Easy Computer Repairing"
 
 
+              />
+              <Computerservices
+                url={three}
+                text="All Types Of Mobile Services"
+                header="Mobile Service"
+              />
+              <Computerservices
+                url={four}
+                header="Network Solutions"
+                text="Computer Networking Solutions"
+              />
+            </div>
+            <button className='btn btn-readmore my-5'>Read More</button>
           </div>
         </div>
+
       </div>
     </>
   )
 }
+
 
 export default Home
