@@ -1,0 +1,32 @@
+.brand_color {
+    background-color: #ffc221;
+}
+
+.brand_color .titlepage {
+    margin-top: 70px;
+    padding-bottom: 70px;
+    text-align: center;
+}
+
+.brand_color .titlepage h2 {
+    font-weight: bold;
+    font-size: 40px !important;
+    text-transform: uppercase;
+}
+
+.products-text .title span {
+    color: #070500;
+    line-height: 28px;
+    font-weight: 300;
+   
+}
+.customer {
+    color: #ffc221;
+    font-weight: bolder;
+}
+.product-bg-white {
+    background: #ffffffbd;
+    box-shadow: #00000040 0px 0px 25px 0px;
+    padding-top: 80px;
+    padding-bottom: 60px;
+}
