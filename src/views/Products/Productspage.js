@@ -1,6 +1,9 @@
 import React from 'react'
 import './productspage.css'
+import { products, sales } from './productsdata'
+import ProductsCard from '../../components/Products/ProductsCard'
 function Productspage() {
+
     return (<>
         <div className="brand_color">
             <div className="container">
@@ -21,6 +24,17 @@ function Productspage() {
         <div className="product-bg-white">
             <div className="container">
                 <div className="row">
+                    {products.map((product, index) => (
+                        <ProductsCard
+                            key={index}
+                            id={product.id}
+                            name={product.name}
+                            description={product.description}
+                            price={product.price}
+                            image={product.image}
+                            sale={sales.find((sale) => sale.productId === product.id)}
+                        />
+                    ))}
                 </div>
             </div>
         </div>

@@ -1,0 +1,14 @@
+.discount-price {
+    margin-right: 5px;
+}
+.btn {
+   background: #fff;
+    border: #f9be20 solid 2px;
+    color: black;
+}
+.btn:hover {
+    background-color: #f9be20;
+    transition: 0.4s;
+    border: #f9be20 solid 2px;
+
+}
