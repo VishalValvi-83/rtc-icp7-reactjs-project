@@ -73,6 +73,24 @@ function Productspage() {
                 )}
             </div>
         </div>
+        <div className='container'>
+          <div className='sale-banner'>
+            <h2 className='my-3 text-center'>Offers</h2>
+          </div>
+          <div className="row">
+            {sales.map((sale) => (
+              <ProductsCard
+                key={sale.id}
+                id={sale.productId}
+                name={products.find((product) => product.id === sale.productId).name}
+                description={products.find((product) => product.id === sale.productId).description}
+                price={products.find((product) => product.id === sale.productId).price}
+                image={products.find((product) => product.id === sale.productId).image}
+                sale={sale}
+              />
+            ))}
+          </div>
+        </div>
 
     </>
 

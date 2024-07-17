@@ -264,6 +264,7 @@ const sales = [
         id: 3,
         productId: 14,
         discount: 10,
+        salePrice: "₹8,999.00 INR",
     },
     {
         id: 4,

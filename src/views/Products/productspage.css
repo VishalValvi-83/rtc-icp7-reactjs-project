@@ -30,3 +30,11 @@
     padding-top: 80px;
     padding-bottom: 60px;
 }
+.sale-banner{
+    background: url('./icons/offer-banner.png') no-repeat center;
+    background-size: contain;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
