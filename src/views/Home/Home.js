@@ -3,7 +3,7 @@ import React from 'react'
 import '../../views/Home/Home.css'
 import { Link } from 'react-router-dom'
 import logo from '../Home/logo.jpg'
-
+import Footer from '../../components/footer/footer'
 import Computerservices from '../../components/computer-services/c-services'
 import one from './../../components/computer-services/1.png'
 import two from '../../components/computer-services/2.png'
@@ -56,37 +56,41 @@ const Home = () => {
       <div className='choose-section my-5'>
         <p className='choose-us'>Why <span className='black-text'>Choose Us</span></p>
         <p className='text'>Fastest repair service with best price!</p>
-        <div className='computer-services'>
-          <div className='inner-section mx-auto d-flex flex-wrap justify-content-center'>
-            <Computerservices
-              url={one}
-              text="Superfast Data Recovery"
-              header="Data Recovery"
-            />
-            <Computerservices 
-            url={two} 
-            header="Computer Repair"
-            text="Easy Computer Repairing"
-
-            
-            />
-            <Computerservices 
-            url={three}
-            text="All Types Of Mobile Services"
-            header="Mobile Service"
-            />
-            <Computerservices 
-            url={four}
-            header="Network Solutions"
-            text="Computer Networking Solutions"
-             />
+        <div className='computer-services mt-5 '>
+          <div className='computer-services-cards  mx-auto'>
+            <div className='inner-section mx-auto d-flex flex-wrap justify-content-center'>
+              <Computerservices
+                url={one}
+                text="Superfast Data Recovery"
+                header="Data Recovery"
+              />
+              <Computerservices
+                url={two}
+                header="Computer Repair"
+                text="Easy Computer Repairing"
 
 
+              />
+              <Computerservices
+                url={three}
+                text="All Types Of Mobile Services"
+                header="Mobile Service"
+              />
+              <Computerservices
+                url={four}
+                header="Network Solutions"
+                text="Computer Networking Solutions"
+              />
+            </div>
+            <button className='btn btn-readmore my-5'>Read More</button>
           </div>
         </div>
+
       </div>
+      <Footer />
     </>
   )
 }
+
 
 export default Home
