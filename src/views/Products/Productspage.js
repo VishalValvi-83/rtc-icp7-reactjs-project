@@ -1,14 +1,23 @@
 import React from 'react'
 import { useState } from 'react'
 import './productspage.css'
-import { products, sales } from './productsdata'
+import { products, sales, categories } from './productsdata'
 import ProductsCard from '../../components/Products/ProductsCard'
 function Productspage() {
     const [mostPopularsLimit, setMostPopularsLimit] = useState(8);
+    const [selectedCategory, setSelectedCategory] = useState(null);
 
-    const handleLoadMore = () => {
+    const btnLoadMore = () => {
         setMostPopularsLimit(mostPopularsLimit + 8);
     };
+
+    const categoryChange = (category) => {
+        setSelectedCategory(category);
+    };
+
+    const filteredProducts = selectedCategory
+        ? products.filter((product) => product.category === selectedCategory)
+        : products.slice(0, mostPopularsLimit);
 
     return (<>
         <div className="brand_color">
@@ -27,10 +36,27 @@ function Productspage() {
                 <span className="mt-3 fs-4">We package the products with best services to make you a <span className='customer'>happy customer </span>.</span>
             </div>
         </div>
+
         <div className="product-bg-white">
             <div className="container">
+                <div className="category-filter w-25">
+                    <h5>Easy To Explore By Categories</h5>
+                    <ul className='list-group'>
+                        {categories.map((category) => (
+                            <li key={category.id} className='list-group-item d-flex justify-content-between align-items-center'>
+                                <button
+                                    href="."
+                                    onClick={() => categoryChange(category.name)}
+                                    className={selectedCategory === category.name ? 'active' : ''}
+                                >
+                                    {category.name}
+                                </button>
+                            </li>
+                        ))}
+                    </ul>
+                </div>
                 <div className="row">
-                    {products.slice(0, mostPopularsLimit).map((product, index) => (
+                    {filteredProducts.map((product, index) => (
                         <ProductsCard
                             key={index}
                             id={product.id}
@@ -43,8 +69,8 @@ function Productspage() {
                     ))}
                 </div>
                 {mostPopularsLimit < products.length && (
-                        <button className="btn b-block w-25 my-4 mx-auto" onClick={handleLoadMore}>Load More</button>
-                    )}
+                    <button className="btn b-block w-25 my-4 mx-auto" onClick={btnLoadMore}>Load More</button>
+                )}
             </div>
         </div>
 

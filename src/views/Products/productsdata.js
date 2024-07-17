@@ -289,6 +289,10 @@ const sales = [
         discount: 10,
         salePrice: "₹3,149.00 INR",
     },
-];
 
-export { products, sales };
+];
+const categories = [
+    { id: 1, name: "Computer Accessories" },
+    { id: 2, name: "Mobile Accessories" },
+];
+export { products, sales, categories };
