@@ -47,7 +47,7 @@ function Productspage() {
                                 <button
                                     href="."
                                     onClick={() => categoryChange(category.name)}
-                                    className={selectedCategory === category.name ? 'active' : ''}
+                                    className={selectedCategory === category.name ? ' active bg-success btn' : 'btn'}
                                 >
                                     {category.name}
                                 </button>
