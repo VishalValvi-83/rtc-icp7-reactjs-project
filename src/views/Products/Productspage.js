@@ -1,8 +1,10 @@
 import React from 'react'
+import { useState } from'react'
 import './productspage.css'
 import { products, sales } from './productsdata'
 import ProductsCard from '../../components/Products/ProductsCard'
 function Productspage() {
+    const [mostPopularsLimit, setMostPopularsLimit] = useState(8);
 
     return (<>
         <div className="brand_color">
@@ -24,7 +26,7 @@ function Productspage() {
         <div className="product-bg-white">
             <div className="container">
                 <div className="row">
-                    {products.map((product, index) => (
+                    {products.slice(0, mostPopularsLimit).map((product, index) => (
                         <ProductsCard
                             key={index}
                             id={product.id}
