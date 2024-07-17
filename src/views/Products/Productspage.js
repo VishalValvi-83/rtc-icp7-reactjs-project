@@ -1,10 +1,14 @@
 import React from 'react'
-import { useState } from'react'
+import { useState } from 'react'
 import './productspage.css'
 import { products, sales } from './productsdata'
 import ProductsCard from '../../components/Products/ProductsCard'
 function Productspage() {
     const [mostPopularsLimit, setMostPopularsLimit] = useState(8);
+
+    const handleLoadMore = () => {
+        setMostPopularsLimit(mostPopularsLimit + 8);
+    };
 
     return (<>
         <div className="brand_color">
@@ -38,8 +42,12 @@ function Productspage() {
                         />
                     ))}
                 </div>
+                {mostPopularsLimit < products.length && (
+                        <button className="btn b-block w-25 my-4 mx-auto" onClick={handleLoadMore}>Load More</button>
+                    )}
             </div>
         </div>
+
     </>
 
     )
