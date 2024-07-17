@@ -6,6 +6,8 @@ import Contact from './views/Contact/Contact';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import About from './views/About/About';
 import Error from './views/Error/Error'
+import Productspage from './views/Products/Productspage';
+
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -24,6 +26,10 @@ const router = createBrowserRouter([
     path: "/about",
     element: <About />,
   },
+  {
+    path: "/products/",
+    element: <Productspage />,
+  }, 
   {
     path: "*",
     element: <Error/>
