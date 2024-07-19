@@ -9,6 +9,11 @@ import one from './../../components/computer-services/1.png'
 import two from '../../components/computer-services/2.png'
 import three from '../../components/computer-services/3.png'
 import four from '../../components/computer-services/4.png'
+import About from "./../About/About.js"
+
+
+
+
 const Home = () => {
   return (
     <>
@@ -53,6 +58,7 @@ const Home = () => {
           <button className='btn btn-warning product-btn'><a href=''>see more Products</a> </button>
         </div>
       </div>
+    
       <div className='choose-section my-5'>
         <p className='choose-us'>Why <span className='black-text'>Choose Us</span></p>
         <p className='text'>Fastest repair service with best price!</p>
