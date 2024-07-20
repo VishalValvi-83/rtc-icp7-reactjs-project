@@ -14,9 +14,9 @@ const Home = () => {
     <>
       <div className="media-container">
         <div className='social-media  py-3'>
-          <i className="fa-brands fa-facebook-f"><a href=''></a> </i>
+          <a href='https://www.facebook.com/profile.php?id=100026333352542'><i className="fa-brands fa-facebook-f"></i></a> 
+          <a href='https://www.instagram.com/harshalpatil003/?hl=en'> <i className="fa-brands fa-instagram"></i></a>
           <i className="fa-brands fa-twitter"><a href=''></a></i>
-          <i className="fa-brands fa-instagram"><a href=''></a></i>
           <i className="fa-brands fa-linkedin-in"><a href=''></a></i>
         </div>
       </div>
