@@ -1,0 +1,99 @@
+.contact-head{
+    background-color: #ffc221;
+    padding: 80px;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    font-weight: 700;
+
+}
+.contact-main{
+    display: flex;
+    margin-top: 60px;
+    justify-content: center;
+    justify-items: center;
+    margin: 40px 10px 10px 10px;
+}
+.name-customer {
+    margin-top: 20px;
+    margin-bottom: 35px;
+    width: 600px;
+    height: 50px;
+    margin-right: 20px;
+    border: #ffc221 solid 2px;
+    padding: 7px;
+    font-size: 17px;
+  }
+  .email-customer{
+    margin-bottom: 35px;
+    width: 600px;
+    height: 50px;
+    border: #ffc221 solid 2px;
+    padding: 7px;
+    font-size: 17px;
+  }
+  
+  .message-customer {
+  border: none;
+    width: 100%;
+    height: 150px;
+    border: #ffc221 solid 2px;
+    padding: 7px;
+    font-size: 17px;
+  }
+ 
+  
+  .button {
+    border: none;
+    width: 100%;
+    height: 50px;
+    background-color: #000000;
+    color: white;
+    font-size: 20px;
+    
+  }
+  .button:hover{
+    background-color: #ffc221;
+    border: #ffc221 solid 2px;
+    
+  }
+  @media screen and (max-width:1115px){
+    .email-customer{
+        width: 100%;
+    }
+    .name-customer{
+        width: 100%;
+    }
+  }
+  @media screen and (max-width:821px) {
+    .contact-main{
+        display: block;
+        margin-top: 40px;
+    }
+  .email-customer{
+    padding-right: 5px;
+        width: 100%;
+        height: 50px;
+        margin-bottom: 15px;
+  }
+    .name-customer {
+        padding-right: 5px;
+        width: 100%;
+        height: 50px;
+        margin-bottom: 15px;
+    }
+  
+    .message-customer {
+        padding-right: 5px;
+        width: 100%;
+        height: 100px;
+  
+    }
+  
+    .button {
+        padding-right: 5px;
+        width: 100%;
+        height: 50px;
+     
+    }
+}
