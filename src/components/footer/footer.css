@@ -1,0 +1,19 @@
+.footer{
+    background-color: rgb(27, 27, 27);
+    height:  500.562px;
+    width: 100%;
+    color: #fff;
+
+}
+.media-contain{
+    background-color: rgb(27, 27, 27);
+}
+h2{
+    text-transform: uppercase;
+}
+.contact-us{
+    color: #fff;
+}
+.footer__container{
+justify-content: space-around;
+}
