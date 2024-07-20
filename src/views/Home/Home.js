@@ -11,9 +11,6 @@ import three from '../../components/computer-services/3.png'
 import four from '../../components/computer-services/4.png'
 import About from "./../About/About.js"
 
-
-
-
 const Home = () => {
   return (
     <>
@@ -38,7 +35,7 @@ const Home = () => {
             <ul class="navbar-nav me-auto mb-2 mb-lg-0 mx-auto">
               <li className=''><Link to="/" className='nevigation-menu'>Home</Link></li>
               <li><Link to="/about" className='nevigation-menu'>About</Link></li>
-              <li><Link to="/product" className='nevigation-menu'>Product</Link></li>
+              <li><Link to="/products" className='nevigation-menu'>Product</Link></li>
               <li><Link to="/contact" className='nevigation-menu'>Contact</Link></li>
               <li><Link to="/signup" className='nevigation-menu'>signup</Link></li>
               <li><button className='btn btn-warning login-btn nevigation-menu'>Login</button></li>
