@@ -11,17 +11,14 @@ import three from '../../components/computer-services/3.png'
 import four from '../../components/computer-services/4.png'
 import About from "./../About/About.js"
 
-
-
-
 const Home = () => {
   return (
     <>
       <div className="media-container">
         <div className='social-media  py-3'>
-          <i className="fa-brands fa-facebook-f"><a href=''></a> </i>
+          <a href='https://www.facebook.com/profile.php?id=100026333352542'><i className="fa-brands fa-facebook-f"></i></a> 
+          <a href='https://www.instagram.com/harshalpatil003/?hl=en'> <i className="fa-brands fa-instagram"></i></a>
           <i className="fa-brands fa-twitter"><a href=''></a></i>
-          <i className="fa-brands fa-instagram"><a href=''></a></i>
           <i className="fa-brands fa-linkedin-in"><a href=''></a></i>
         </div>
       </div>
@@ -36,11 +33,11 @@ const Home = () => {
 
           <div class="collapse navbar-collapse " id="navbarText">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0 mx-auto">
-              <li className=''><Link to="" className='nevigation-menu'>Home</Link></li>
-              <li><Link to="" className='nevigation-menu'>About</Link></li>
-              <li><Link to="" className='nevigation-menu'>Product</Link></li>
-              <li><Link to="" className='nevigation-menu'>Contact</Link></li>
-              <li><Link to="" className='nevigation-menu'>signup</Link></li>
+              <li className=''><Link to="/" className='nevigation-menu'>Home</Link></li>
+              <li><Link to="/about" className='nevigation-menu'>About</Link></li>
+              <li><Link to="/products" className='nevigation-menu'>Product</Link></li>
+              <li><Link to="/contact" className='nevigation-menu'>Contact</Link></li>
+              <li><Link to="/signup" className='nevigation-menu'>signup</Link></li>
               <li><button className='btn btn-warning login-btn nevigation-menu'>Login</button></li>
             </ul>
           </div>
@@ -50,6 +47,7 @@ const Home = () => {
 
         </div>
       </nav>
+      
       <div className='banner-section'>
         <div className='banner-text'>
           <p className='our'>Our</p>
@@ -74,8 +72,6 @@ const Home = () => {
                 url={two}
                 header="Computer Repair"
                 text="Easy Computer Repairing"
-
-
               />
               <Computerservices
                 url={three}
