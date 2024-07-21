@@ -16,8 +16,14 @@
 	color:#070500;
 }
 .about_box{
-    margin-top: 20%;
+    margin-top: 0%;
 }
 .about-img{
-    margin-top: 0;
+	margin: 20% 20%;
+	height: 500px;
+   width: 900px;
+}
+.row{
+	justify-content: center;
+	align-items: center;
 }

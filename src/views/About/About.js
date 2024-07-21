@@ -11,7 +11,7 @@ const About = () => {
           <div className="container">
             <div className="row">
               <dir className="col-xl-6 col-lg-6 col-md-12 col-sm-12">
-                <div className="about_box">
+                <div >
                   <figure><img className='about-img' src={pc_layout} /></figure>
                 </div>
               </dir>
