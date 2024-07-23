@@ -1,5 +1,4 @@
 import React from 'react'
-import Footer from '../../components/footer/footer'
 import { useState } from 'react'
 import './productspage.css'
 import { products, sales, categories } from './productsdata'
