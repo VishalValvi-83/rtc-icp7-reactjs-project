@@ -7,7 +7,7 @@ function ProductsCard({ id, description, name, image, price, sale }) {
         <img src={image} className="card-img-top " alt={name} />
         <div className="card-body">
           <h5 className="card-title">{name}</h5>
-          <p className="lh-1 text-start fs-6">{description}</p>
+          <p className="text-start card-description">{description}</p>
           <p className="card-text text-center">
             {sale ? (
               <span>

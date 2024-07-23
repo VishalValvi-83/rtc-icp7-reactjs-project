@@ -4,15 +4,15 @@ const products = [
         name: "Laptop",
         description: "High-performance laptop with Intel i7 processor and 16GB RAM.",
         price: "₹89,999.00 INR",
-        image: "https://example.com/laptop.jpg",
+        image: "https://p2-ofp.static.pub//fes/cms/2023/08/16/9po8ze7s3reb7ods680pa87ph8wm4c624538.png",
         category: "Computer Accessories"
     },
     {
         id: 1,
         name: "Smartphone",
-        description: "Latest model smartphone with 64MP camera and 128GB storage.",
+        description: "Motorola Edge 50 Fusion 5G (Forest Blue, 8GB RAM, 128GB Storage)",
         price: "₹34,999.00 INR",
-        image: "https://example.com/smartphone.jpg",
+        image: "https://m.media-amazon.com/images/I/71ZJ6bsARtL._SX569_.jpg",
         category: "Mobile Accessories"
     },
     {
@@ -20,15 +20,15 @@ const products = [
         name: "Motherboard",
         description: "Gaming motherboard compatible with Intel and AMD processors.",
         price: "₹12,499.00 INR",
-        image: "https://example.com/motherboard.jpg",
+        image: "https://m.media-amazon.com/images/I/61TbCg1bh3L.jpg",
         category: "Computer Accessories"
     },
     {
         id: 3,
         name: "Hard Drive",
-        description: "1TB external hard drive with USB 3.0 support.",
+        description: "1TB External HDD - USB 3.0 for Windows and Mac with 3 yr Data Recovery Services",
         price: "₹4,999.00 INR",
-        image: "https://example.com/harddrive.jpg",
+        image: "https://m.media-amazon.com/images/I/814SDu24dnL._SX679_.jpg",
         category: "Computer Accessories"
     },
     {
@@ -36,7 +36,7 @@ const products = [
         name: "Pen Drive",
         description: "64GB USB 3.0 pen drive with high-speed data transfer.",
         price: "₹799.00 INR",
-        image: "https://example.com/pendrive.jpg",
+        image: "https://m.media-amazon.com/images/I/31+O31ILlcL.jpg",
         category: "Computer Accessories"
     },
     {
@@ -44,7 +44,7 @@ const products = [
         name: "Monitor",
         description: "27-inch 4K Ultra HD monitor with HDR support.",
         price: "₹24,999.00 INR",
-        image: "https://example.com/monitor.jpg",
+        image: "https://m.media-amazon.com/images/I/71GRpZb6+vL._SX679_.jpg",
         category: "Computer Accessories"
     },
     {
@@ -52,7 +52,7 @@ const products = [
         name: "Keyboard",
         description: "Mechanical keyboard with RGB backlighting.",
         price: "₹3,499.00 INR",
-        image: "https://example.com/keyboard.jpg",
+        image: "https://m.media-amazon.com/images/I/71efrSqYHwL._SY450_.jpg",
         category: "Computer Accessories"
     },
     {
@@ -60,7 +60,7 @@ const products = [
         name: "Mouse",
         description: "Wireless gaming mouse with adjustable DPI settings.",
         price: "₹1,499.00 INR",
-        image: "https://example.com/mouse.jpg",
+        image: "https://m.media-amazon.com/images/I/51nxsHroOLL._SY879_.jpg",
         category: "Computer Accessories"
     },
     {
@@ -68,7 +68,7 @@ const products = [
         name: "Headphones",
         description: "Noise-cancelling over-ear headphones with Bluetooth connectivity.",
         price: "₹7,999.00 INR",
-        image: "https://example.com/headphones.jpg",
+        image: "https://m.media-amazon.com/images/I/51+xFDM2H2L._SY450_.jpg",
         category: "Computer Accessories"
     },
     {
@@ -76,7 +76,7 @@ const products = [
         name: "Smartwatch",
         description: "Waterproof smartwatch with fitness tracking features.",
         price: "₹5,499.00 INR",
-        image: "https://example.com/smartwatch.jpg",
+        image: "https://m.media-amazon.com/images/I/510+3Km7MtL._SX569_.jpg",
         category: "Mobile Accessories"
     },
     {
@@ -84,7 +84,7 @@ const products = [
         name: "Tablet",
         description: "10-inch tablet with 4G LTE support and 64GB storage.",
         price: "₹17,999.00 INR",
-        image: "https://example.com/tablet.jpg",
+        image: "https://media-ik.croma.com/prod/https://media.croma.com/image/upload/v1697175358/Croma%20Assets/Computers%20Peripherals/Tablets%20and%20iPads/Images/302271_m1m9sv.png?tr=w-480",
         category: "Mobile Accessories"
     },
     {
@@ -92,7 +92,7 @@ const products = [
         name: "Charger",
         description: "Fast charging USB-C charger with 45W output.",
         price: "₹1,299.00 INR",
-        image: "https://example.com/charger.jpg",
+        image: "https://m.media-amazon.com/images/I/51J8w+cXLoL._SY450_.jpg",
         category: "Mobile Accessories"
     },
     {
@@ -100,7 +100,7 @@ const products = [
         name: "Computer Repair Tool Kit",
         description: "Professional computer repair tool kit with 58 pieces.",
         price: "₹2,999.00 INR",
-        image: "https://example.com/repair_tool_kit.jpg",
+        image: "https://m.media-amazon.com/images/I/81RfoyuT2LL._SX569_.jpg",
         category: "Computer Accessories"
     },
     {
@@ -108,7 +108,7 @@ const products = [
         name: "Mobile Repair Tool Kit",
         description: "Mobile phone repair tool kit with precision tools.",
         price: "₹1,499.00 INR",
-        image: "https://example.com/mobile_repair_tool_kit.jpg",
+        image: "https://m.media-amazon.com/images/I/81Iak49KL7L._SX569_.jpg",
         category: "Mobile Accessories"
     },
     {
@@ -116,7 +116,7 @@ const products = [
         name: "Mobile Service",
         description: "Comprehensive mobile phone repair and maintenance service.",
         price: "₹1,999.00 INR",
-        image: "https://example.com/mobile_service.jpg",
+        image: "https://miro.medium.com/v2/resize:fit:800/1*-58dZ_gj-4t73ehxuFwleA.jpeg",
         category: "Mobile Accessories"
     },
     {
@@ -124,7 +124,7 @@ const products = [
         name: "Computer Service",
         description: "Full computer repair and maintenance service.",
         price: "₹3,499.00 INR",
-        image: "https://example.com/computer_service.jpg",
+        image: "https://rahatcomputer.com/wp-content/uploads/2016/06/Computers-Repair-and-Maintenance.webp",
         category: "Computer Accessories"
     },
     {
@@ -132,7 +132,7 @@ const products = [
         name: "Laptop Cooling Pad",
         description: "Adjustable laptop cooling pad with dual fans.",
         price: "₹1,499.00 INR",
-        image: "https://example.com/cooling_pad.jpg",
+        image: "https://m.media-amazon.com/images/I/71Jhyhs2orL._SY450_.jpg",
         category: "Computer Accessories"
     },
     {
@@ -140,7 +140,7 @@ const products = [
         name: "USB Hub",
         description: "7-port USB 3.0 hub with individual power switches.",
         price: "₹1,299.00 INR",
-        image: "https://example.com/usb_hub.jpg",
+        image: "https://m.media-amazon.com/images/I/51V3GTSos1L.jpg",
         category: "Computer Accessories"
     },
     {
@@ -148,7 +148,7 @@ const products = [
         name: "Laptop Stand",
         description: "Ergonomic laptop stand with adjustable height.",
         price: "₹2,499.00 INR",
-        image: "https://example.com/laptop_stand.jpg",
+        image: "https://m.media-amazon.com/images/I/616UovaQcLL._AC_UF894,1000_QL80_.jpg",
         category: "Computer Accessories"
     },
     {
@@ -156,7 +156,7 @@ const products = [
         name: "Bluetooth Speakers",
         description: "Portable Bluetooth speakers with 10-hour battery life.",
         price: "₹3,499.00 INR",
-        image: "https://example.com/bluetooth_speakers.jpg",
+        image: "https://m.media-amazon.com/images/I/71gNXJ6ciBL.jpg",
         category: "Computer Accessories"
     },
     {
@@ -164,7 +164,7 @@ const products = [
         name: "External SSD",
         description: "500GB external SSD with USB-C interface.",
         price: "₹7,999.00 INR",
-        image: "https://example.com/external_ssd.jpg",
+        image: "https://m.media-amazon.com/images/I/71Uy60eWrVL._AC_UF1000,1000_QL80_.jpg",
         category: "Computer Accessories"
     },
     {
@@ -172,7 +172,7 @@ const products = [
         name: "Screen Protector",
         description: "Tempered glass screen protector for smartphones.",
         price: "₹399.00 INR",
-        image: "https://example.com/screen_protector.jpg",
+        image: "https://m.media-amazon.com/images/I/71tUjv1-wNL.jpg",
         category: "Mobile Accessories"
     },
     {
@@ -180,7 +180,7 @@ const products = [
         name: "Phone Case",
         description: "Shockproof phone case with built-in kickstand.",
         price: "₹999.00 INR",
-        image: "https://example.com/phone_case.jpg",
+        image: "https://m.media-amazon.com/images/I/71RRYQ4dVXL._SX569_.jpg",
         category: "Mobile Accessories"
     },
     {
@@ -188,7 +188,7 @@ const products = [
         name: "Power Bank",
         description: "10000mAh power bank with fast charging capability.",
         price: "₹1,499.00 INR",
-        image: "https://example.com/power_bank.jpg",
+        image: "https://m.media-amazon.com/images/I/71pBjes-NTS._SL1500_.jpg",
         category: "Mobile Accessories"
     },
     {
@@ -196,7 +196,7 @@ const products = [
         name: "Wireless Earbuds",
         description: "True wireless earbuds with noise cancellation.",
         price: "₹3,999.00 INR",
-        image: "https://example.com/wireless_earbuds.jpg",
+        image: "https://www.gonoise.com/cdn/shop/files/Beige_b8bace91-1ca1-4182-a043-d58a3a7534c7.png?v=1714033033",
         category: "Mobile Accessories"
     },
     {
@@ -204,7 +204,7 @@ const products = [
         name: "Car Charger",
         description: "Dual USB car charger with quick charge support.",
         price: "₹699.00 INR",
-        image: "https://example.com/car_charger.jpg",
+        image: "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcSCPRcfkXlB7ZGHpGyYmVtVnsKFfRRtbKdc0aX840RYdZgSWwbX5CCpc9Luq2K_o4JKlbDJ1uT0R4lycIIOsfx2KuJWlSy95gtEhPAhil49Lo3E-SqgkQhU&usqp=CAE",
         category: "Mobile Accessories"
     },
     {
@@ -212,7 +212,7 @@ const products = [
         name: "Selfie Stick",
         description: "Extendable selfie stick with Bluetooth remote.",
         price: "₹599.00 INR",
-        image: "https://example.com/selfie_stick.jpg",
+        image: "https://m.media-amazon.com/images/I/51zUGppjnEL._SX679_.jpg",
         category: "Mobile Accessories"
     },
     {
@@ -220,7 +220,7 @@ const products = [
         name: "Wireless Charger",
         description: "Qi-certified wireless charger with fast charging.",
         price: "₹1,999.00 INR",
-        image: "https://example.com/wireless_charger.jpg",
+        image: "https://m.media-amazon.com/images/I/61F-S077BXL._AC_UY327_FMwebp_QL65_.jpg",
         category: "Mobile Accessories"
     },
     {
@@ -228,7 +228,7 @@ const products = [
         name: "Phone Holder",
         description: "Adjustable phone holder for car dashboard.",
         price: "₹799.00 INR",
-        image: "https://example.com/phone_holder.jpg",
+        image: "https://m.media-amazon.com/images/I/61ZhzGZi6JL._SX679_.jpg",
         category: "Mobile Accessories"
     },
     {
@@ -236,7 +236,7 @@ const products = [
         name: "OTG Adapter",
         description: "USB OTG adapter for connecting USB devices to smartphones.",
         price: "₹299.00 INR",
-        image: "https://example.com/otg_adapter.jpg",
+        image: "https://m.media-amazon.com/images/I/212redZnCCL._SY445_SX342_QL70_FMwebp_.jpg",
         category: "Mobile Accessories"
     }
 ];

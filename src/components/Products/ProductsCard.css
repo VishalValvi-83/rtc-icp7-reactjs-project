@@ -12,3 +12,9 @@
     border: #f9be20 solid 2px;
 
 }
+.card-description{
+    color: #4f4f4f;
+    font-size: 15px;
+    line-height: normal;
+    font-weight: normal;
+}

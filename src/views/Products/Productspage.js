@@ -4,6 +4,7 @@ import { useState } from 'react'
 import './productspage.css'
 import { products, sales, categories } from './productsdata'
 import ProductsCard from '../../components/Products/ProductsCard'
+import Footer from './../../components/footer/footer.jsx'
 function Productspage() {
     const [mostPopularsLimit, setMostPopularsLimit] = useState(8);
     const [selectedCategory, setSelectedCategory] = useState(null);
@@ -21,15 +22,15 @@ function Productspage() {
         : products.slice(0, mostPopularsLimit);
 
     return (<>
-    <div className="media-container">
-        <div className='social-media  py-3'>
-          <a href='https://www.facebook.com/profile.php?id=100026333352542'><i className="fa-brands fa-facebook-f"></i></a> 
-          <a href='https://www.instagram.com/harshalpatil003/?hl=en'> <i className="fa-brands fa-instagram"></i></a>
-          <i className="fa-brands fa-twitter"><a href=''></a></i>
-          <i className="fa-brands fa-linkedin-in"><a href=''></a></i>
+        <div className="media-container">
+            <div className='social-media  py-3'>
+                <a href='https://www.facebook.com/profile.php?id=100026333352542'><i className="fa-brands fa-facebook-f"></i></a>
+                <a href='https://www.instagram.com/harshalpatil003/?hl=en'> <i className="fa-brands fa-instagram"></i></a>
+                <i className="fa-brands fa-twitter"><a href=''></a></i>
+                <i className="fa-brands fa-linkedin-in"><a href=''></a></i>
+            </div>
         </div>
-      </div>
-   {/* <nav class="navbar navbar-expand-lg ">
+        {/* <nav class="navbar navbar-expand-lg ">
         <div class="container-fluid list-inline ">
           <a class="navbar-brand" href=""><li><img src={logo} className='logo' /></li></a>
 
@@ -103,24 +104,24 @@ function Productspage() {
             </div>
         </div>
         <div className='container'>
-          <div className='sale-banner'>
-            <h2 className='my-3 text-center'>Offers</h2>
-          </div>
-          <div className="row">
-            {sales.map((sale) => (
-              <ProductsCard
-                key={sale.id}
-                id={sale.productId}
-                name={products.find((product) => product.id === sale.productId).name}
-                description={products.find((product) => product.id === sale.productId).description}
-                price={products.find((product) => product.id === sale.productId).price}
-                image={products.find((product) => product.id === sale.productId).image}
-                sale={sale}
-              />
-            ))}
-          </div>
+            <div className='sale-banner'>
+                <h2 className='my-3 text-center'>Offers</h2>
+            </div>
+            <div className="row">
+                {sales.map((sale) => (
+                    <ProductsCard
+                        key={sale.id}
+                        id={sale.productId}
+                        name={products.find((product) => product.id === sale.productId).name}
+                        description={products.find((product) => product.id === sale.productId).description}
+                        price={products.find((product) => product.id === sale.productId).price}
+                        image={products.find((product) => product.id === sale.productId).image}
+                        sale={sale}
+                    />
+                ))}
+            </div>
         </div>
-<Footer/>
+        <Footer />
     </>
 
     )
