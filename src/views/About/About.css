@@ -11,6 +11,9 @@
  
 
 }
+.logo {
+    max-width: 100%;
+}
 .black {
 	font-weight: 500;
 	color:#070500;
