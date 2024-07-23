@@ -3,6 +3,7 @@ import { useState } from 'react'
 import './productspage.css'
 import { products, sales, categories } from './productsdata'
 import ProductsCard from '../../components/Products/ProductsCard'
+import Footer from './../../components/footer/footer.jsx'
 function Productspage() {
     const [mostPopularsLimit, setMostPopularsLimit] = useState(8);
     const [selectedCategory, setSelectedCategory] = useState(null);
@@ -91,7 +92,7 @@ function Productspage() {
             ))}
           </div>
         </div>
-
+        <Footer />
     </>
 
     )
